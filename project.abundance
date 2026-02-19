@@ -20,9 +20,9 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.24149956408020923,
-      "y": 0.641566265060241,
-      "uniqueID": "id-3662",
+      "x": 0.4592592592592593,
+      "y": 0.5271084337349398,
+      "uniqueID": "id-3720",
       "ioValues": [
         {
           "name": "diameter",
@@ -32,46 +32,10 @@
       ]
     },
     {
-      "atomType": "Gcode",
-      "x": 0.4559721011333914,
-      "y": 0.23795180722891565,
-      "uniqueID": "id-3665",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Tool Size",
-          "ioValue": 0.25,
-          "currentEquation": "0.25"
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Isosceles_Trapezoid",
-          "currentEquation": "Isosceles_Trapezoid"
-        }
-      ],
-      "partName": "Isosceles_Trapezoid",
-      "sortDirection": "Left"
-    },
-    {
       "atomType": "Extrude",
-      "x": 0.47515257192676547,
-      "y": 0.4849397590361446,
-      "uniqueID": "id-3677",
+      "x": 0.5414141414141415,
+      "y": 0.5843373493975904,
+      "uniqueID": "id-3723",
       "ioValues": [
         {
           "name": "geometry",
@@ -86,9 +50,9 @@
     },
     {
       "atomType": "Export",
-      "x": 0.6713164777680907,
-      "y": 0.5030120481927711,
-      "uniqueID": "id-3681",
+      "x": 0.6033670033670033,
+      "y": 0.6355421686746988,
+      "uniqueID": "id-3727",
       "ioValues": [
         {
           "name": "geometry",
@@ -113,35 +77,18 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Isosceles_Trapezoid"
-    },
-    {
-      "atomType": "Import",
-      "x": 0.6477768090671316,
-      "y": 0.783132530120482,
-      "uniqueID": "id-3700",
-      "fileName": "2.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-3662",
-      "ap2ID": "id-3665"
+      "ap1ID": "id-3720",
+      "ap2ID": "id-3723"
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-3662",
-      "ap2ID": "id-3677"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3677",
-      "ap2ID": "id-3681"
+      "ap1ID": "id-3723",
+      "ap2ID": "id-3727"
     }
   ],
   "unitsKey": "Inches",
