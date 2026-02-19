@@ -19,78 +19,19 @@
       ]
     },
     {
-      "atomType": "Circle",
-      "x": 0.32727272727272727,
-      "y": 0.3253012048192771,
-      "uniqueID": "id-3720",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10,
-          "currentEquation": "10"
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.46060606060606063,
-      "y": 0.42771084337349397,
-      "uniqueID": "id-3723",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
-        }
-      ]
-    },
-    {
-      "atomType": "Export",
-      "x": 0.7171717171717172,
-      "y": 0.6144578313253012,
-      "uniqueID": "id-3727",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Isosceles_Trapezoid",
-          "currentEquation": "Isosceles_Trapezoid"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Isosceles_Trapezoid"
+      "atomType": "Import",
+      "x": 0.461952861952862,
+      "y": 0.569277108433735,
+      "uniqueID": "id-3762",
+      "fileName": "3.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Dining_Chair_Claude",
+      "SVGwidth": 10
     }
   ],
-  "allConnectors": [
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3720",
-      "ap2ID": "id-3723"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3723",
-      "ap2ID": "id-3727"
-    }
-  ],
+  "allConnectors": [],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
