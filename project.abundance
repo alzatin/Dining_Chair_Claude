@@ -26,8 +26,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -43,34 +42,9 @@
         },
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.6685393258426966,
-      "y": 0.1701492537313433,
-      "uniqueID": "id-3409",
-      "name": "Molecule",
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-3411",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        }
-      ],
-      "allConnectors": [],
-      "fileTypeVersion": 1
     },
     {
       "atomType": "Rectangle",
@@ -80,8 +54,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "y length",
@@ -101,8 +74,7 @@
         },
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -118,18 +90,15 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": 5,
-          "currentEquation": "5"
+          "ioValue": 5
         },
         {
           "name": "zDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         }
       ]
     },
@@ -161,13 +130,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": -5,
-          "currentEquation": "-5"
+          "ioValue": -5
         },
         {
           "name": "zDist",
@@ -176,9 +143,49 @@
       ]
     },
     {
+      "atomType": "Assembly",
+      "x": 0.8698501872659177,
+      "y": 0.755223880597015,
+      "uniqueID": "id-3494",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.6685393258426966,
+      "y": 0.1701492537313433,
+      "uniqueID": "id-3409",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-3411",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    },
+    {
       "atomType": "GitHubMolecule",
-      "x": 0.7799625468164794,
-      "y": 0.48358208955223886,
+      "x": 0.7846441947565543,
+      "y": 0.4895522388059702,
       "uniqueID": "id-3455",
       "name": "Mirror",
       "ioValues": [
@@ -470,22 +477,6 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.8698501872659177,
-      "y": 0.755223880597015,
-      "uniqueID": "id-3494",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -530,14 +521,14 @@
       "ap2ID": "id-3455"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-3455",
-      "ap2ID": "id-3494"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-3494",
       "ap2ID": "id-3395"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-3455",
+      "ap2ID": "id-3494"
     }
   ],
   "unitsKey": "Inches",
