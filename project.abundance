@@ -32,8 +32,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4906367041198502,
-      "y": 0.44477611940298506,
+      "x": 0.40355805243445697,
+      "y": 0.4686567164179104,
       "uniqueID": "id-3405",
       "ioValues": [
         {
@@ -42,7 +42,8 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
@@ -527,6 +528,56 @@
           }
         ]
       ]
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.8576779026217229,
+      "y": 0.28955223880597014,
+      "uniqueID": "id-3576",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 96,
+          "currentEquation": "96"
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 48
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 0.4
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 0,
+            "translate": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ]
+      ]
     }
   ],
   "allConnectors": [
@@ -579,6 +630,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-3494",
       "ap2ID": "id-3569"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3494",
+      "ap2ID": "id-3576"
     },
     {
       "ap2Name": "Shape 1",
