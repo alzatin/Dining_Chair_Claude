@@ -26,8 +26,7 @@
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -43,8 +42,7 @@
         },
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -80,10 +78,10 @@
     },
     {
       "atomType": "Import",
-      "x": 0.3569023569023569,
-      "y": 0.7409638554216867,
-      "uniqueID": "id-3732",
-      "fileName": "0_copy1.svg",
+      "x": 0.35309060118543606,
+      "y": 0.6897590361445783,
+      "uniqueID": "id-3746",
+      "fileName": "2.svg",
       "name": "Import",
       "type": "SVG",
       "repoOwner": "alzatin",
