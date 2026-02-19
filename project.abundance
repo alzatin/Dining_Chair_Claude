@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.371043771043771,
-      "y": 0.3885542168674699,
+      "x": 0.32727272727272727,
+      "y": 0.3253012048192771,
       "uniqueID": "id-3720",
       "ioValues": [
         {
@@ -33,8 +33,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.5414141414141415,
-      "y": 0.5843373493975904,
+      "x": 0.46060606060606063,
+      "y": 0.42771084337349397,
       "uniqueID": "id-3723",
       "ioValues": [
         {
@@ -43,14 +43,15 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
     {
       "atomType": "Export",
-      "x": 0.6033670033670033,
-      "y": 0.6355421686746988,
+      "x": 0.7171717171717172,
+      "y": 0.6144578313253012,
       "uniqueID": "id-3727",
       "ioValues": [
         {
@@ -76,18 +77,6 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Isosceles_Trapezoid"
-    },
-    {
-      "atomType": "Import",
-      "x": 0.24377104377104378,
-      "y": 0.6385542168674698,
-      "uniqueID": "id-3746",
-      "fileName": "2.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [
