@@ -320,8 +320,8 @@
             },
             {
               "atomType": "Rotate",
-              "x": 0.26397306397306397,
-              "y": 0.31626506024096385,
+              "x": 0.25925925925925924,
+              "y": 0.3885542168674699,
               "uniqueID": "id-3794",
               "ioValues": [
                 {
@@ -330,7 +330,8 @@
                 },
                 {
                   "name": "x-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 0,
+                  "currentEquation": "0"
                 },
                 {
                   "name": "y-axis degrees",
@@ -344,7 +345,7 @@
             },
             {
               "atomType": "Fusion",
-              "x": 0.3966329966329966,
+              "x": 0.4,
               "y": 0.5783132530120482,
               "uniqueID": "id-3811",
               "ioValues": [
@@ -411,8 +412,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.33939393939393936,
-              "y": 0.3403614457831325,
+              "x": 0.3434343434343434,
+              "y": 0.3674698795180723,
               "uniqueID": "id-3951",
               "ioValues": [
                 {
@@ -499,8 +500,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.2491582491582492,
-              "y": 0.6234939759036144,
+              "x": 0.2505050505050505,
+              "y": 0.6265060240963854,
               "uniqueID": "id-3635",
               "name": "Isosceles_Trapezoid",
               "ioValues": [
@@ -1030,8 +1031,7 @@
               "ioValues": [
                 {
                   "name": "Base1",
-                  "ioValue": 28,
-                  "currentEquation": "28"
+                  "ioValue": 28
                 },
                 {
                   "name": "Base2",
@@ -1215,8 +1215,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.2936026936026936,
-              "y": 0.15963855421686746,
+              "x": 0.2882154882154882,
+              "y": 0.1897590361445783,
               "uniqueID": "id-4131",
               "name": "Isosceles_Trapezoid",
               "ioValues": [
@@ -1477,6 +1477,11 @@
               "ap2Name": "geometry",
               "ap1ID": "id-3711",
               "ap2ID": "id-3691"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-3775",
+              "ap2ID": "id-3523"
             },
             {
               "ap2Name": "geometry",
