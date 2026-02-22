@@ -17,6 +17,30 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Import",
+      "x": 0.3909378292939937,
+      "y": 0.4427710843373494,
+      "uniqueID": "id-3399",
+      "fileName": "1_copy2.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Dining_Chair_Claude",
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "Import",
+      "x": 0.5026343519494204,
+      "y": 0.6234939759036144,
+      "uniqueID": "id-3401",
+      "fileName": "1_copy2.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Dining_Chair_Claude",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [],
