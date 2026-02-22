@@ -4,6 +4,25 @@
   "y": 0,
   "uniqueID": "id-3394",
   "name": "Dining_Chair_Claude_",
+  "ioValues": [
+    {
+      "name": "Height",
+      "ioValue": 10,
+      "currentEquation": "10"
+    },
+    {
+      "name": "Seat_height",
+      "ioValue": 10
+    },
+    {
+      "name": "Width",
+      "ioValue": 10
+    },
+    {
+      "name": "Ply_thick",
+      "ioValue": 10
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -19,176 +38,346 @@
       ]
     },
     {
-      "atomType": "Import",
-      "x": 0.30632411067193677,
-      "y": 0.4066265060240964,
-      "uniqueID": "id-3409",
-      "fileName": "2_copy2.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
+      "atomType": "Input",
+      "x": 0.021449999999999997,
+      "y": 0.3463855421686747,
+      "uniqueID": "id-3484",
+      "name": "Height"
     },
     {
-      "atomType": "Import",
-      "x": 0.25184404636459434,
-      "y": 0.6867469879518072,
-      "uniqueID": "id-3413",
-      "fileName": "1_copy3.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
+      "atomType": "Input",
+      "x": 0.021449999999999997,
+      "y": 0.4397590361445783,
+      "uniqueID": "id-3487",
+      "name": "Seat_height"
     },
     {
-      "atomType": "Import",
-      "x": 0.23814229249011856,
-      "y": 0.4337349397590362,
-      "uniqueID": "id-3419",
-      "fileName": "2_copy3.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.4614624505928854,
-      "y": 0.5632530120481928,
-      "uniqueID": "id-3430",
+      "atomType": "Molecule",
+      "x": 0.21616161616161617,
+      "y": 0.3463855421686747,
+      "uniqueID": "id-3476",
+      "name": "Side",
       "ioValues": [
         {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "name": "Height",
+          "ioValue": 10
         },
         {
-          "name": "height",
-          "ioValue": 3,
-          "currentEquation": "3"
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.5879446640316206,
-      "y": 0.5813253012048193,
-      "uniqueID": "id-3434",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "name": "Seat_height",
+          "ioValue": 10
         },
         {
-          "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "name": "Ply_thick",
+          "ioValue": 10
         },
         {
-          "name": "yDist",
-          "ioValue": 30,
-          "currentEquation": "30"
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6719367588932806,
-      "y": 0.3373493975903614,
-      "uniqueID": "id-3440",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.8003952569169961,
-      "y": 0.5602409638554217,
-      "uniqueID": "id-3452",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 20,
-          "currentEquation": "20"
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 48
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 0.4
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
+          "name": "Width",
+          "ioValue": 10
         }
       ],
-      "placements": [
-        [
-          {
-            "id": 0,
-            "rotate": 0,
-            "translate": {
-              "x": 0,
-              "y": 0
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-3478",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
-          },
-          {
-            "id": 1,
-            "rotate": 0,
-            "translate": {
-              "x": 0,
-              "y": 0
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.021449999999999997,
+          "y": 0.13,
+          "uniqueID": "id-3509",
+          "name": "Height",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.021449999999999997,
+          "y": 0.20800000000000002,
+          "uniqueID": "id-3512",
+          "name": "Seat_height",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.021449999999999997,
+          "y": 0.28600000000000003,
+          "uniqueID": "id-3515",
+          "name": "Ply_thick",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.021449999999999997,
+          "y": 0.36400000000000005,
+          "uniqueID": "id-3518",
+          "name": "Width",
+          "type": "number"
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.2181818181818182,
+          "y": 0.46686746987951805,
+          "uniqueID": "id-3521",
+          "name": "Shape",
+          "ioValues": [
+            {
+              "name": "Height",
+              "ioValue": 10
+            },
+            {
+              "name": "Seat_height",
+              "ioValue": 10
+            },
+            {
+              "name": "Ply_thick",
+              "ioValue": 10
+            },
+            {
+              "name": "Width",
+              "ioValue": 10
             }
-          }
-        ]
-      ]
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-3523",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021449999999999997,
+              "y": 0.13,
+              "uniqueID": "id-3525",
+              "name": "Height",
+              "type": "number"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021449999999999997,
+              "y": 0.20800000000000002,
+              "uniqueID": "id-3528",
+              "name": "Seat_height",
+              "type": "number"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021449999999999997,
+              "y": 0.28600000000000003,
+              "uniqueID": "id-3531",
+              "name": "Ply_thick",
+              "type": "number"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021449999999999997,
+              "y": 0.36400000000000005,
+              "uniqueID": "id-3534",
+              "name": "Width",
+              "type": "number"
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.27744107744107743,
+              "y": 0.45180722891566266,
+              "uniqueID": "id-3537",
+              "name": "Shape",
+              "ioValues": [
+                {
+                  "name": "Height",
+                  "ioValue": 10
+                },
+                {
+                  "name": "Seat_height",
+                  "ioValue": 10
+                },
+                {
+                  "name": "Ply_thick",
+                  "ioValue": 10
+                },
+                {
+                  "name": "Width",
+                  "ioValue": 10
+                },
+                {
+                  "name": "Back_bend_height",
+                  "ioValue": 10
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-3539",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.021449999999999997,
+                  "y": 0.13,
+                  "uniqueID": "id-3541",
+                  "name": "Height",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.021449999999999997,
+                  "y": 0.20800000000000002,
+                  "uniqueID": "id-3544",
+                  "name": "Seat_height",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.021449999999999997,
+                  "y": 0.28600000000000003,
+                  "uniqueID": "id-3547",
+                  "name": "Ply_thick",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.021449999999999997,
+                  "y": 0.36400000000000005,
+                  "uniqueID": "id-3550",
+                  "name": "Width",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.021449999999999997,
+                  "y": 0.44200000000000006,
+                  "uniqueID": "id-3553",
+                  "name": "Back_bend_height"
+                },
+                {
+                  "atomType": "Rectangle",
+                  "x": 0.2558922558922559,
+                  "y": 0.6837349397590361,
+                  "uniqueID": "id-3556",
+                  "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 10,
+                      "currentEquation": "10"
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 10
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [],
+              "fileTypeVersion": 1
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "Height",
+              "ap1ID": "id-3525",
+              "ap2ID": "id-3537"
+            },
+            {
+              "ap2Name": "Seat_height",
+              "ap1ID": "id-3528",
+              "ap2ID": "id-3537"
+            },
+            {
+              "ap2Name": "Ply_thick",
+              "ap1ID": "id-3531",
+              "ap2ID": "id-3537"
+            },
+            {
+              "ap2Name": "Width",
+              "ap1ID": "id-3534",
+              "ap2ID": "id-3537"
+            }
+          ],
+          "fileTypeVersion": 1
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "Height",
+          "ap1ID": "id-3509",
+          "ap2ID": "id-3521"
+        },
+        {
+          "ap2Name": "Seat_height",
+          "ap1ID": "id-3512",
+          "ap2ID": "id-3521"
+        },
+        {
+          "ap2Name": "Ply_thick",
+          "ap1ID": "id-3515",
+          "ap2ID": "id-3521"
+        },
+        {
+          "ap2Name": "Width",
+          "ap1ID": "id-3518",
+          "ap2ID": "id-3521"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.021449999999999997,
+      "y": 0.7740963855421686,
+      "uniqueID": "id-3503",
+      "name": "Width"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.021449999999999997,
+      "y": 0.6265060240963854,
+      "uniqueID": "id-3506",
+      "name": "Ply_thick"
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3409",
-      "ap2ID": "id-3430"
+      "ap2Name": "Height",
+      "ap1ID": "id-3484",
+      "ap2ID": "id-3476"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3430",
-      "ap2ID": "id-3434"
+      "ap2Name": "Seat_height",
+      "ap1ID": "id-3487",
+      "ap2ID": "id-3476"
     },
     {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-3430",
-      "ap2ID": "id-3440"
+      "ap2Name": "Width",
+      "ap1ID": "id-3503",
+      "ap2ID": "id-3476"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-3434",
-      "ap2ID": "id-3440"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3440",
-      "ap2ID": "id-3452"
+      "ap2Name": "Ply_thick",
+      "ap1ID": "id-3506",
+      "ap2ID": "id-3476"
     }
   ],
   "unitsKey": "Inches",
