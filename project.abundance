@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Import",
-      "x": 0.308300395256917,
-      "y": 0.4006024096385542,
+      "x": 0.30632411067193677,
+      "y": 0.4066265060240964,
       "uniqueID": "id-3409",
       "fileName": "2_copy2.svg",
       "name": "Import",
@@ -53,9 +53,144 @@
       "repoOwner": "alzatin",
       "repoName": "Dining_Chair_Claude",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.46343873517786555,
+      "y": 0.5512048192771084,
+      "uniqueID": "id-3430",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 3,
+          "currentEquation": "3"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5879446640316206,
+      "y": 0.5813253012048193,
+      "uniqueID": "id-3434",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 30,
+          "currentEquation": "30"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5671936758893281,
+      "y": 0.3313253012048193,
+      "uniqueID": "id-3440",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.7549407114624506,
+      "y": 0.3855421686746988,
+      "uniqueID": "id-3445",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 96,
+          "currentEquation": "96"
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 48
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 0.4
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 5.3268833,
+              "y": 7.330693
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 0,
+            "translate": {
+              "x": 5.3268833,
+              "y": 21.993130000000008
+            }
+          }
+        ]
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3409",
+      "ap2ID": "id-3430"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3430",
+      "ap2ID": "id-3434"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-3430",
+      "ap2ID": "id-3440"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-3434",
+      "ap2ID": "id-3440"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3440",
+      "ap2ID": "id-3445"
+    }
+  ],
   "unitsKey": "Inches",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
