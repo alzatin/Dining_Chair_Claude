@@ -205,7 +205,8 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 96
+          "ioValue": 96,
+          "currentEquation": "96"
         },
         {
           "name": "Sheet Height",
@@ -587,7 +588,7 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.8275862068965518,
+      "x": 0.8310344827586207,
       "y": 0.35843373493975905,
       "uniqueID": "id-5673",
       "ioValues": [
@@ -597,7 +598,8 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 0.25
+          "ioValue": 0.25,
+          "currentEquation": "0.25"
         },
         {
           "name": "Passes",
