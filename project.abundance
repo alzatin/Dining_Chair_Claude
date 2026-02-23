@@ -25,6 +25,11 @@
     {
       "name": "Leg_width",
       "ioValue": 3.5
+    },
+    {
+      "name": "Seath_dep",
+      "ioValue": 15.5,
+      "currentEquation": "15.5"
     }
   ],
   "topLevel": true,
@@ -142,6 +147,11 @@
         {
           "name": "Leg_width",
           "ioValue": 3.5
+        },
+        {
+          "name": "Seat_Depth",
+          "ioValue": 15.5,
+          "currentEquation": "15.5"
         }
       ],
       "topLevel": false,
@@ -263,8 +273,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.27927927927927926,
-          "y": 0.32228915662650603,
+          "x": 0.2756756756756757,
+          "y": 0.3403614457831325,
           "uniqueID": "id-3521",
           "name": "Shape",
           "ioValues": [
@@ -289,8 +299,9 @@
               "ioValue": 3.5
             },
             {
-              "name": "Input",
-              "ioValue": 10
+              "name": "Seat_depth",
+              "ioValue": 15.5,
+              "currentEquation": "15.5"
             }
           ],
           "topLevel": false,
@@ -747,14 +758,15 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.17109634551495018,
+              "x": 0.1693693693693694,
               "y": 0.35542168674698793,
               "uniqueID": "id-4371",
               "name": "Isosceles_Trapezoid",
               "ioValues": [
                 {
                   "name": "Base1",
-                  "ioValue": 28
+                  "ioValue": 28,
+                  "currentEquation": "28"
                 },
                 {
                   "name": "Base2",
@@ -1128,8 +1140,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.24504504504504504,
-              "y": 0.6234939759036144,
+              "x": 0.24414414414414415,
+              "y": 0.6144578313253012,
               "uniqueID": "id-4437",
               "name": "Isosceles_Trapezoid",
               "ioValues": [
@@ -1320,7 +1332,7 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.23693693693693693,
+              "x": 0.24234234234234234,
               "y": 0.8704819277108433,
               "uniqueID": "id-4471",
               "name": "Isosceles_Trapezoid",
@@ -1513,8 +1525,28 @@
             {
               "atomType": "Input",
               "x": 0.021449999999999997,
-              "y": 0.641566265060241,
-              "uniqueID": "id-4987"
+              "y": 0.6385542168674698,
+              "uniqueID": "id-4987",
+              "name": "Seat_depth"
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.13693693693693695,
+              "y": 0.8102409638554217,
+              "uniqueID": "id-4995",
+              "name": "x + y",
+              "ioValues": [
+                {
+                  "name": "x",
+                  "ioValue": 15.5,
+                  "currentEquation": "1"
+                },
+                {
+                  "name": "y",
+                  "ioValue": 3.5
+                }
+              ],
+              "currentEquation": "x + y"
             }
           ],
           "allConnectors": [
@@ -1542,6 +1574,11 @@
               "ap2Name": "xDist",
               "ap1ID": "id-3620",
               "ap2ID": "id-3691"
+            },
+            {
+              "ap2Name": "y",
+              "ap1ID": "id-3620",
+              "ap2ID": "id-4995"
             },
             {
               "ap2Name": "geometry2",
@@ -1622,9 +1659,31 @@
               "ap2Name": "geometry",
               "ap1ID": "id-4471",
               "ap2ID": "id-3691"
+            },
+            {
+              "ap2Name": "x",
+              "ap1ID": "id-4987",
+              "ap2ID": "id-4995"
+            },
+            {
+              "ap2Name": "Base2",
+              "ap1ID": "id-4995",
+              "ap2ID": "id-4437"
+            },
+            {
+              "ap2Name": "Base2",
+              "ap1ID": "id-4995",
+              "ap2ID": "id-4371"
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Input",
+          "x": 0.021449999999999997,
+          "y": 0.575301204819277,
+          "uniqueID": "id-4999",
+          "name": "Seat_Depth"
         }
       ],
       "allConnectors": [
@@ -1682,14 +1741,19 @@
           "ap2Name": "geometry",
           "ap1ID": "id-3521",
           "ap2ID": "id-4665"
+        },
+        {
+          "ap2Name": "Seat_depth",
+          "ap1ID": "id-4999",
+          "ap2ID": "id-3521"
         }
       ],
       "fileTypeVersion": 1
     },
     {
       "atomType": "Molecule",
-      "x": 0.2711711711711712,
-      "y": 0.6686746987951807,
+      "x": 0.27477477477477474,
+      "y": 0.6897590361445783,
       "uniqueID": "id-4905",
       "name": "Molecule",
       "ioValues": [
@@ -1700,6 +1764,10 @@
         {
           "name": "Width",
           "ioValue": 14
+        },
+        {
+          "name": "Seath_dep",
+          "ioValue": 15.5
         }
       ],
       "topLevel": false,
@@ -1718,8 +1786,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2972972972972973,
-          "y": 0.3674698795180723,
+          "x": 0.2990990990990991,
+          "y": 0.3644578313253012,
           "uniqueID": "id-4909",
           "name": "Part",
           "ioValues": [
@@ -2152,6 +2220,14 @@
           "uniqueID": "id-4916",
           "name": "Width",
           "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.021449999999999997,
+          "y": 0.28600000000000003,
+          "uniqueID": "id-5005",
+          "name": "Seath_dep",
+          "type": "number"
         }
       ],
       "allConnectors": [
@@ -2167,6 +2243,13 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.021449999999999997,
+      "y": 0.52,
+      "uniqueID": "id-5002",
+      "name": "Seath_dep"
     }
   ],
   "allConnectors": [
@@ -2229,6 +2312,16 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-3476",
       "ap2ID": "id-4688"
+    },
+    {
+      "ap2Name": "Seat_Depth",
+      "ap1ID": "id-5002",
+      "ap2ID": "id-3476"
+    },
+    {
+      "ap2Name": "Seath_dep",
+      "ap1ID": "id-5002",
+      "ap2ID": "id-4905"
     }
   ],
   "unitsKey": "Inches",
