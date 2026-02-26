@@ -128,8 +128,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7040598290598291,
-      "y": 0.575301204819277,
+      "x": 0.7029914529914529,
+      "y": 0.5933734939759037,
       "uniqueID": "id-5332",
       "ioValues": [
         {
@@ -192,7 +192,7 @@
     {
       "atomType": "CutLayout",
       "x": 0.7200854700854701,
-      "y": 0.2560240963855422,
+      "y": 0.2740963855421687,
       "uniqueID": "id-5666",
       "name": "Cut Layout",
       "ioValues": [
@@ -202,7 +202,7 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 48
+          "ioValue": 47
         },
         {
           "name": "Sheet Height",
