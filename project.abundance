@@ -202,11 +202,12 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 96
+          "ioValue": 48
         },
         {
           "name": "Sheet Height",
-          "ioValue": 48
+          "ioValue": 96,
+          "currentEquation": "96"
         },
         {
           "name": "Part Padding",
