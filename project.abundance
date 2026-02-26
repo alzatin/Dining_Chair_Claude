@@ -128,8 +128,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6779661016949152,
-      "y": 0.45783132530120485,
+      "x": 0.6826741996233522,
+      "y": 0.4457831325301205,
       "uniqueID": "id-5332",
       "ioValues": [
         {
@@ -191,8 +191,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.728813559322034,
-      "y": 0.22590361445783133,
+      "x": 0.7297551789077212,
+      "y": 0.21385542168674698,
       "uniqueID": "id-5666",
       "name": "Cut Layout",
       "ioValues": [
@@ -2899,8 +2899,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.475517890772128,
-              "y": 0.23493975903614459,
+              "x": 0.48587570621468923,
+              "y": 0.17771084337349397,
               "uniqueID": "id-6248",
               "ioValues": [
                 {
@@ -2909,11 +2909,13 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0
+                  "ioValue": -0.875,
+                  "currentEquation": "-part_width/4"
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0
+                  "ioValue": -7.625,
+                  "currentEquation": "-(Width - Flareout/2)/2"
                 },
                 {
                   "name": "zDist",
@@ -2923,8 +2925,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.4661016949152542,
-              "y": 0.4427710843373494,
+              "x": 0.46986817325800373,
+              "y": 0.4457831325301205,
               "uniqueID": "id-6254",
               "ioValues": [
                 {
@@ -2933,7 +2935,8 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0
+                  "ioValue": -0.875,
+                  "currentEquation": "-part_width/4"
                 },
                 {
                   "name": "yDist",
@@ -2960,6 +2963,39 @@
                 {
                   "name": "Shape 2",
                   "ioValue": null
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.748587570621469,
+              "y": 0.3433734939759036,
+              "uniqueID": "id-6265",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 3,
+                  "currentEquation": "3"
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.8879472693032016,
+              "y": 0.4427710843373494,
+              "uniqueID": "id-6269",
+              "ioValues": [
+                {
+                  "name": "geometry1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "geometry2",
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
             }
@@ -3016,9 +3052,9 @@
               "ap2ID": "id-4975"
             },
             {
-              "ap2Name": "number or geometry",
+              "ap2Name": "geometry1",
               "ap1ID": "id-4975",
-              "ap2ID": "id-4911"
+              "ap2ID": "id-6269"
             },
             {
               "ap2Name": "diameter",
@@ -3054,6 +3090,21 @@
               "ap2Name": "Shape 1",
               "ap1ID": "id-6254",
               "ap2ID": "id-6260"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-6260",
+              "ap2ID": "id-6265"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-6265",
+              "ap2ID": "id-6269"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-6269",
+              "ap2ID": "id-4911"
             }
           ],
           "fileTypeVersion": 1
