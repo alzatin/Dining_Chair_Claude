@@ -276,7 +276,7 @@
     {
       "atomType": "CutLayout",
       "x": 0.6839237057220708,
-      "y": 0.2469879518072289,
+      "y": 0.2620481927710844,
       "uniqueID": "id-7717",
       "name": "Cut Layout",
       "ioValues": [
@@ -475,6 +475,21 @@
           }
         ]
       ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.7611262488646685,
+      "y": 0.27710843373493976,
+      "uniqueID": "id-9166",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "sheet:0",
+      "tagIndex": 0
     },
     {
       "atomType": "Molecule",
@@ -3800,21 +3815,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "ExtractTag",
-      "x": 0.7611262488646685,
-      "y": 0.27710843373493976,
-      "uniqueID": "id-9166",
-      "name": "Extract Tag",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "tag": "sheet:0",
-      "tagIndex": 0
     }
   ],
   "allConnectors": [
@@ -3935,6 +3935,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-9166",
+      "ap2ID": "id-5673"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-3476",
       "ap2ID": "id-4682"
     },
@@ -3952,11 +3957,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-5680",
       "ap2ID": "id-5801"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-9166",
-      "ap2ID": "id-5673"
     }
   ],
   "unitsKey": "Inches",
