@@ -276,7 +276,7 @@
     {
       "atomType": "CutLayout",
       "x": 0.7120799273387829,
-      "y": 0.2650602409638554,
+      "y": 0.27710843373493976,
       "uniqueID": "id-7717",
       "name": "Cut Layout",
       "ioValues": [
@@ -475,6 +475,38 @@
           }
         ]
       ]
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.737511353315168,
+      "y": 0.7439759036144579,
+      "uniqueID": "id-8196",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 96
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 48
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 0.4,
+          "currentEquation": "0.4"
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 11,
+          "currentEquation": "11"
+        }
+      ],
+      "placements": []
     },
     {
       "atomType": "Molecule",
@@ -3800,36 +3832,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.7574931880108992,
-      "y": 0.7801204819277108,
-      "uniqueID": "id-8196",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 96
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 48
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 0.4
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 10
-        }
-      ],
-      "placements": []
     }
   ],
   "allConnectors": [
